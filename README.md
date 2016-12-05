@@ -70,7 +70,7 @@ None at this stage, I’ll actively monitor issues if they arise.
 
 ## Authors
 
-* **Thomas Maw**
+* **Thomas Maw** - https://github.com/twomedia
 
 ## License
 
