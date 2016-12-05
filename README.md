@@ -43,18 +43,26 @@ And that’s it! You can now pinch zoom the image just like Instagram!
 ```
 
 “Do I need to call resetImageZoom: everytime to reset the zoom?”
+```
 A: No, this is called automatically when the user ends the gesture.
+```
 
 “Is there anyway I can know when the user starts and ends the zoom?”
+```
 A: Yes, we post two notifications when the user begins and ends zooming:
 TMImageZoom_Started_Zoom_Notification
 TMImageZoom_Ended_Zoom_Notification
+```
 
 “Does this support CollectionViews and TableViews?”
+```
 A: Yes, although you will need to manually override touches so the user can’t tap other cells/buttons while zooming. This can be achieved by checking the isHandlingGesture boolean.
+```
 
 “Can you zoom multiple ImageViews at once?”
+```
 A: This is possible but only if you don’t use the shared instance and just initialise TMImageZoom yourself. Currently with the shared instance we block any gestures that get received if it isn’t the current view being zoomed. (This resets everytime the zoom is reset)
+```
 
 ### Known Issues
 
