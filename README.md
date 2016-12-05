@@ -1,9 +1,10 @@
-# TMInstagramImageZoom
+# TMImageZoom
 Easily add zoom functionality similar to Instagram
+<img src="preview.gif" width="226" height="402" />
 
 ## Getting Started
 
-Adding TMInstagramImageZoom is quick and easy:
+Adding TMImageZoom is quick and easy:
 
 1. Add the TMImageZoom.h & TMImageZoom.m files to your project.
 2. Import TMImageZoom.h
@@ -70,7 +71,7 @@ None at this stage, I’ll actively monitor issues if they arise.
 
 ## Authors
 
-* **Thomas Maw**
+* **Thomas Maw** - https://github.com/twomedia
 
 ## License
 
