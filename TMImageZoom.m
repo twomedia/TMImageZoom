@@ -37,6 +37,7 @@ static  TMImageZoom* tmImageZoom;
     // Reset zoom if state = UIGestureRecognizerStateEnded
     if (theGesture.state == UIGestureRecognizerStateEnded || theGesture.state == UIGestureRecognizerStateCancelled || theGesture.state == UIGestureRecognizerStateFailed) {
         [self resetImageZoom];
+        return;
     }
     
     // Ignore other views trying to start zoom if already zooming with another view
