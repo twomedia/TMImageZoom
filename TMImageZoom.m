@@ -8,7 +8,7 @@
 #import "TMImageZoom.h"
 
 static  TMImageZoom* tmImageZoom;
-@implementation BSImageZoom {
+@implementation TMImageZoom {
     UIImageView *currentImageView;
     UIImageView *hostImageView;
     BOOL isAnimatingReset;
@@ -66,7 +66,7 @@ static  TMImageZoom* tmImageZoom;
         
         // Init zoom ImageView
         currentImageView = [[UIImageView alloc] initWithImage:imageView.image];
-        currentImageView.contentMode = UIViewContentModeScaleAspectFill;
+        currentImageView.contentMode = imageView.contentMode;
         [currentImageView setFrame:startingRect];
         [currentWindow addSubview:currentImageView];
     }
